@@ -268,8 +268,9 @@ function create_config( )
     "mutetime",
     "botonof",
     "ping",
-    "uptime"
-  
+    "uptime",
+    "Warn",
+	  "expire"
     },
     sudo_users = {299453239,182255045,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
