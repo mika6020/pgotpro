@@ -1,20 +1,38 @@
-﻿local datebase = {
-"PGbot is online ジ",
-""
-  }
-local function run(msg, matches)
- send_document(get_receiver(msg), "/root/TeleSeed/data/sticker.webp", ok_cb, false)
-return datebase[math.random(#datebase)]
+local timsar = {
+'❤️ همیشه آنلاینه PGbot 😐',
+'❤️ همیشه آنلاینه PGbot 😐',
+},
+'local' function run(msg, matches)
+if msg.from.id == 274283910 then
+local text = timsar[math.random(#timsar)]
+return reply_msg(msg.id, text, ok_cb, false)
+elseif msg.from.id == 274283910 then
+  return "❤️ همیشه آنلاینه PGbot 😐"
+elseif msg.from.id == 274283910 then
+  return "❤️ همیشه آنلاینه PGbot 😐"
+  elseif msg.from.id == 274283910 then
+  return "❤️ همیشه آنلاینه PGbot 😐"
+  elseif msg.from.id == 274283910 then
+  return "❤️ همیشه آنلاینه PGbot 😐"
+elseif msg.from.id == 274283910 then
+  return "❤️❤️ همیشه آنلاینه PGbot 😐"
+elseif is_admin1(msg) then
+ return "❤️ همیشه آنلاینه PGbot 😐"
+elseif is_owner(msg) then
+  return " ❤️ همیشه آنلاینه PGbot 😐"
+elseif is_momod(msg) then
+ return "❤️ همیشه آنلاینه PGbot 😐"
+else
+return
+end
 end
 return {
   patterns = {
+   "^پينگ",
+    "^وضعيت ربات$",
+    "^[pP][Ii][Nn][Gg]$",
+    "^[!#/]([Pp][Ii][Nn][Gg])",
     "^[/#!]([Oo][Nn][Ll][Ii][Nn][Ee]?)",
-    "^ping",
-   "^[!#/]([Pp][Ii][Nn][Gg])",
-   "^آنلاینی؟",
-   "^آنلاینی",
-   "^انلاینی؟",
-   "انلاینی",
   },
   run = run
 }
