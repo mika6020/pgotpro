@@ -276,11 +276,9 @@ if is_chat_msg(msg) or is_super_group(msg) then
 				local user_id = msg.from.id
 				local _nl, ctrl_chars = string.gsub(msg.text, '%c', '')
 				if string.len(msg.from.print_name) > 70 or ctrl_chars > 40 and lock_group_spam == 'yes' then
-				savelog(msg.to.id, name_log.." ["..msg.from.id.."] joined and Service Msg deleted (#spam name)")
 					delete_msg(msg.id, ok_cb, false)
 					if strict == "yes" or to_chat then
-					savelog(msg.to.id, name_log.." ["..msg.from.id.."] joined and kicked (#spam name)")
-						--	kick_user(msg.from.id, msg.to.id)
+						kick_user(msg.from.id, msg.to.id)
 					end
 				end
 				local print_name = msg.from.print_name
