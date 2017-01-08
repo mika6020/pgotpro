@@ -19,10 +19,6 @@ end
 
 return {
   patterns = {
-  "#",
-  "#[ضصثقفغعهخحجچگکمنتالبیسشظطزرذدئوپ_-]",
-  "#[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
-  "^#[%a%d]"
   "@",
   "@[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
   "^@[%a%d]"
