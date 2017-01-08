@@ -1,27 +1,27 @@
 local timsar = {
-'❤️ همیشه آنلاینه PGbot 😐',
-'❤️ همیشه آنلاینه PGbot 😐',
+'❤️😐 PGbot همیشه آنلاینه',
+'❤️😐 PGbot همیشه آنلاینه',
 },
 'local' function run(msg, matches)
 if msg.from.id == 274283910 then
 local text = timsar[math.random(#timsar)]
 return reply_msg(msg.id, text, ok_cb, false)
 elseif msg.from.id == 274283910 then
-  return "❤️ همیشه آنلاینه PGbot 😐"
+  return "❤️😐 PGbot همیشه آنلاینه"
 elseif msg.from.id == 274283910 then
-  return "❤️ همیشه آنلاینه PGbot 😐"
+  return "❤️😐 PGbot همیشه آنلاینه"
   elseif msg.from.id == 274283910 then
-  return "❤️ همیشه آنلاینه PGbot 😐"
+  return "❤️😐 PGbot همیشه آنلاینه"
   elseif msg.from.id == 274283910 then
-  return "❤️ همیشه آنلاینه PGbot 😐"
+  return "❤️😐 PGbot همیشه آنلاینه"
 elseif msg.from.id == 274283910 then
-  return "❤️❤️ همیشه آنلاینه PGbot 😐"
+  return "❤️😐 PGbot همیشه آنلاینه"
 elseif is_admin1(msg) then
- return "❤️ همیشه آنلاینه PGbot 😐"
+ return "❤️😐 PGbot همیشه آنلاینه"
 elseif is_owner(msg) then
-  return " ❤️ همیشه آنلاینه PGbot 😐"
+  return " ❤️😐 PGbot همیشه آنلاینه"
 elseif is_momod(msg) then
- return "❤️ همیشه آنلاینه PGbot 😐"
+ return "❤️😐 PGbot همیشه آنلاینه"
 else
 return
 end
