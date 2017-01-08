@@ -20,7 +20,7 @@ end
 return {
   patterns = {
   "#",
-  "#[ضصثقفغعهخحجچگکمنتالبیسشظطزرذدئوپ_-",
+  "#[ضصثقفغعهخحجچگکمنتالبیسشظطزرذدئوپ_-]",
   "#[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
   "^#[%a%d]"
   "@",
