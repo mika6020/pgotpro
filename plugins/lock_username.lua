@@ -16,9 +16,13 @@ local function run(msg, matches)
        delete_msg(msg.id, ok_cb, true)
     end
 end
- 
+
 return {
   patterns = {
+  "#",
+  "#[ضصثقفغعهخحجچگکمنتالبیسشظطزرذدئوپ_-",
+  "#[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
+  "^#[%a%d]"
   "@",
   "@[ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz]",
   "^@[%a%d]"
