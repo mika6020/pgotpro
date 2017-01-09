@@ -262,13 +262,9 @@ function create_config( )
     "cleandeleted",
     "enlock",
     "LinkPv",
-    "Addsudo",
-    "info",
-    "lock_bots",
-    "mutetime",
     "botonof",
-    "ping",
-    "uptime"
+    "ping"
+
 
     },
     sudo_users = {299453239,182255045,0,tonumber(our_id)},--Sudo users
