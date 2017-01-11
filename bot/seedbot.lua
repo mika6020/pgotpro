@@ -263,6 +263,7 @@ function create_config( )
     "enlock",
     "LinkPv",
     "botonof",
+    "expire",
     "ping"
 
 
